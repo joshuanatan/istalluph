@@ -28,4 +28,6 @@ else echo "Connected successfully";
 //else echo "Connected successfully";
 
 // THIS COMMENT IS MADE BY NICKY TODAY SHALALALALA
+
+//HAI NICK pake github seru
 ?>
