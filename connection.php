@@ -26,4 +26,6 @@ else echo "Connected successfully";
     die("Connection failed: " . $conn->connect_error);
 //} 
 //else echo "Connected successfully";
+
+// THIS COMMENT IS MADE BY NICKY TODAY SHALALALALA
 ?>
