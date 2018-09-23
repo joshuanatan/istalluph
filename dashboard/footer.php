@@ -5,7 +5,7 @@
 
                 <li>
                     <a href="#">
-                        <b><?php echo $_SESSION["idistall"]; ?></b>
+                        <b><?php echo $_SESSION["namaistall"]; ?></b>
                     </a>
                 </li>
                 <li>

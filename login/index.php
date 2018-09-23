@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php session_start(); ?>
+<?php session_start(); if(!empty($_SESSION["idistall"]) or !empty($_SESSION["namaistall"])) header("location:functionSignOut.php");?>
 <html lang="en">
 <head>
 	<title>Welcome </title>

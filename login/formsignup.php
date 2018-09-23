@@ -5,31 +5,31 @@
     <div class="form-group">
         <label class="control-label col-sm-2" for="email">Name:</label>
         <div class="col-sm-12" >
-          <input type="text" class="form-control" id="name" placeholder="Enter Name" name = "name" style = "height: 50px;" required>
+          <input type="text" class="form-control" id="name1" placeholder="Enter Name" name = "name" style = "height: 50px;" required>
         </div>
       </div>
     <div class="form-group">
         <label class="control-label col-sm-2" for="email">Email:</label>
         <div class="col-sm-12">
-          <input type="email" class="form-control" id="email" placeholder="Enter email" name = "email" style = "height: 50px;" required>
+          <input type="email" class="form-control" id="email1" placeholder="Enter email" name = "email" style = "height: 50px;" required>
         </div>
       </div>
     <div class="form-group">
         <label class="control-label col-sm-2" for="email">Password:</label>
         <div class="col-sm-12">
-          <input type="password" class="form-control" id="pass" placeholder="Enter Password" name = "pass" style = "height: 50px;" required>
+          <input type="password" class="form-control" id="pass1" placeholder="Enter Password" name = "pass" style = "height: 50px;" required>
         </div>
       </div>
     <div class="form-group">
         <label class="control-label col-sm-2" for="email">Line:</label>
         <div class="col-sm-12">
-          <input type="text" class="form-control" id="line" placeholder="Enter Line" name = "line" style = "height: 50px;" required>
+          <input type="text" class="form-control" id="line1" placeholder="Enter Line" name = "line" style = "height: 50px;" required>
         </div>
       </div>
     <div class="form-group">
         <label class="control-label col-sm-12" for="email">Mobile Number:</label>
         <div class="col-sm-12">
-          <input type="number" min="0" class="form-control" id="mobile" placeholder="Enter Mobile Number" name = "nohp" style = "height: 50px;" required>
+          <input type="number" min="0" class="form-control" id="mobile1" placeholder="Enter Mobile Number" name = "nohp" style = "height: 50px;" required>
         </div>
       </div>
     <div class="form-group">

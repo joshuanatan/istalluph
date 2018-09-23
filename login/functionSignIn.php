@@ -12,6 +12,7 @@ if($stmt = $conn->prepare($sql)){
     if($row = $result->fetch_assoc()){
         $_SESSION["idistall"] = $row["id"];
         $_SESSION["namaistall"] = $row["nama"];
+        $_SESION["uploadpath"] = $_SERVER["SERVER_NAME"]."/upload/".$row["id"];
         header("location:../index.php");
 
     }
