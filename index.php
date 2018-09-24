@@ -1,6 +1,7 @@
 <!doctype html>
 <?php session_start(); 
 if(empty($_SESSION["idistall"])) header("location:login/index.php");
+include("connection.php");
 ?>
 <html lang="en">
     <head>
@@ -54,10 +55,10 @@ if(empty($_SESSION["idistall"])) header("location:login/index.php");
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <?php include("dashboard/dataPanel1.php"); ?>
-                        <?php include("dashboard/dataPanel2.php"); ?>
-                        <?php include("dashboard/dataPanel3.php"); ?>
-                        <?php include("dashboard/dataPanel4.php"); ?>
+                        <?php// include("dashboard/dataPanel1.php"); ?>
+                        <?php// include("dashboard/dataPanel2.php"); ?>
+                        <?php //include("dashboard/dataPanel3.php"); ?>
+                        <?php// include("dashboard/dataPanel4.php"); ?>
                     </div>
                     <?php include("dashboard/formUploadFiles.php"); ?>
                     <?php include("dashboard/tableQueuedItems.php"); ?>

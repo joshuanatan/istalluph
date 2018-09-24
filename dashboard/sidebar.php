@@ -14,12 +14,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="financial.php">
+                    <a href="index.php">
                         <i class="ti-wallet"></i>
-                        <p>FINANCIAL REPORT</p>
+                        <p>COMING SOON</p>
                     </a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="project.php">
                         <i class="ti-view-list-alt"></i>
                         <p>PROJECT HISTORY</p>
@@ -36,7 +36,7 @@
                         <i class="ti-user"></i>
                         <p>EDIT PROFILE</p>
                     </a>
-                </li>
+                </li>-->
             </ul>
             
     	</div>

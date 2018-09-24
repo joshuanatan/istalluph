@@ -25,7 +25,7 @@
 				<?php include("formsignin.php");?>
                 <?php include("formsignup.php");?>
                 <?php include("formuploadfile.php");?>
-				<div class="login100-more" style="background-image: url('../img/cover%20istall.jpg');"> 
+				<div class="login100-more" style="background-image: url('../img/logo.png');background-size: 100%"> 
 				</div>
 			</div>
 		</div>

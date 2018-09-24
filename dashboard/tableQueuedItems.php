@@ -16,14 +16,25 @@
                                 <th>Submited Date</th>
                                 <th>Dateline</th>
                                 <th>File Name</th>
-                                <th>Price</th>
-                                <th>Payment Method</th>
-                                <th>Payment Status</th>
                                 <th>Status</th>
                             </tr>
                         </thead>
                         <tbody>
-                        
+                            <?php
+                            $sql = "select id, tglSubmit, tglDateline, namaFile, status from project where idMember = ".$_SESSION["idistall"];
+                            
+                            $result = $conn->query($sql);
+                            
+                            while($row = $result->fetch_assoc()){
+                                echo "<tr>";
+                                echo "<th>"; echo $row["id"]; echo "</th>";
+                                echo "<th>"; echo $row["tglSubmit"]; echo "</th>";
+                                echo "<th>"; echo $row["tglDateline"]; echo "</th>";
+                                echo "<th>"; echo $row["namaFile"]; echo "</th>";
+                                echo "<th>"; if($row["status"] == 1) echo "Queued"; else echo "Working"; echo "</th>";
+                                echo "</tr>";
+                            }
+                            ?>
                         </tbody>
                     </table>
                 </div>

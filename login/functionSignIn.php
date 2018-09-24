@@ -12,7 +12,8 @@ if($stmt = $conn->prepare($sql)){
     if($row = $result->fetch_assoc()){
         $_SESSION["idistall"] = $row["id"];
         $_SESSION["namaistall"] = $row["nama"];
-        $_SESION["uploadpath"] = $_SERVER["SERVER_NAME"]."/upload/".$row["id"]."/";
+        $_SESSION["uploadpath"] = "upload/".$row["id"]."/"; //nanti /istallnya diapus
+        echo $_SESSION["uploadpath"];
         header("location:../index.php");
 
     }
