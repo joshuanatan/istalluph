@@ -15,7 +15,7 @@
                     <a href = "financial.php" style = "display:inline-block; margin: 5%;">FINANCIAL</a>
                 </li>
                 <li>
-                    <a href = "profile.php" style = "display:inline-block; margin: 5%;">PROFILE</a>
+                    <a href = "profile.php" style = "display: inline-block; margin: 5%;">PROFILE</a>
                 </li>
                 <li>
                     <a href = "project.php" style = "display:inline-block; margin: 5%;">PROJECTS</a>

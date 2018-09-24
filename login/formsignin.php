@@ -19,9 +19,9 @@
     
     <div class="flex-sb-m w-full p-t-3 p-b-32">
         <div>
-            <a href="#" class="txt1" onclick="goDirectPrint()">
+            <!--<a href="#" class="txt1" onclick="goDirectPrint()">
                 Continue Without Account
-            </a>
+            </a>-->
         </div>
     </div>
 

@@ -1,5 +1,5 @@
 <br>        
-<form class="login100-form validate-form" id = "directprint-container">
+<form class="login100-form validate-form" id = "directprint-container" action = "functionUploadFile.php?status=0" method="post">
     <span class="login100-form-title p-b-43">
         Print without account
     </span>				
@@ -13,7 +13,7 @@
         <span class="focus-input100"></span>
         <span class="label-input100">LINE</span>
     </div>
-
+    
     <div class="wrap-input100" data-validate = "Valid email is required: ex@abc.xyz" style = "border:none">
         <input class="input100" type="file" name="email">
         <span class="focus-input100"></span>

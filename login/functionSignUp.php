@@ -33,7 +33,7 @@ if($stmt = $conn->prepare($sql)) {
 
     $_SESSION["idistall"] = $row["id"];
     $_SESSION["namaistall"] = $nama;
-    $_SESION["uploadpath"] = $_SERVER["SERVER_NAME"]."/upload/".$row["id"];
+    $_SESION["uploadpath"] = $_SERVER["SERVER_NAME"]."/upload/".$row["id"]."/";
     header("location:../index.php");
     die();
     exit();
